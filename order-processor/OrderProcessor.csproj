@@ -5,11 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-    <PackageReference Include="Dapr.AspNetCore" Version="1.13.*-*" />
+    <ProjectReference Include="..\DaprAspirePubsub.ServiceDefaults\DaprAspirePubsub.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>
